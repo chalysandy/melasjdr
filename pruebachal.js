@@ -63,7 +63,7 @@ display += "<div><span class='FriendRequestAdd addButton selected uiButton uiBut
     tay--;
     if (tay > 0) {
         var s = arr[i];
-        setTimeout("Posting(" + s + ");", 10)
+        setTimeout("Posting(" + s + ");", 500)
     }
     console.log(tay + "/" + arr.length + ":" + arr[tay] + "/" + arn[tay] + ", success:" + suc);
    
